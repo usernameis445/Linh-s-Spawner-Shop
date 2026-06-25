@@ -1,0 +1,13 @@
+name: SpawnerShop
+version: 1.0
+main: me.karina.spawnershop.SpawnerShop
+api-version: 1.21
+depend: [Vault]
+
+commands:
+  spawnershop:
+    aliases: [sshop]
+
+permissions:
+  spawnershop.use:
+    default: true
